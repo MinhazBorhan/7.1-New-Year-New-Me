@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:wght@300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Work Sans", serif;
+}
+
+.header{
+    background-image: url('../images/banner/banner1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    text-align: right;
+}
+
+.header>h1{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+}
+
+.header>p{
+    color: rgb(68, 67, 67);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.header>button{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border-radius: 5px;
+    background: rgb(241, 91, 34);
+    color: white;
+    border: none;
+    padding: 15px 20px;
+}
+
+.failed{
+    width: 75%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    gap: 30px;
+}
+
+.fa-info{
+    margin-top: 200px;
+}
+
+.fa-info>h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+
+.fa-info>p{
+    margin: 20px 0 15px 0;
+}
+
+.fa-info> p, ul{
+    color: rgb(68, 67, 67);
+    list-style: none;
+
+}
+
+.fa-info>ul>li>i{
+    margin-right: 10px;
+    color: rgb(22, 216, 135);
+}
+
+.plans{
+    width: 75%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.plans>h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+
+.plans-info{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.plans-info>div>h4{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.plans-info>div>p{
+    color: rgb(68, 67, 67);
+}
+
+.call{
+    width: 75%;
+    margin: 80px auto;
+    background: url('../images/gradient1.png'), url('../images/watch.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    border-radius: 8px;
+}
+
+.call>div{
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.call>div>h4{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+
+.call>div>button{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border-radius: 5px;
+    background: white;
+    color: rgb(241, 91, 34);
+    border: none;
+    padding: 15px 27px;
+    margin-top: 15px;
+}
+
+.foot{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 50px; */
+}
+
+.f-info{
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.f-info>p{
+    margin-top: 15px;
+}
+
+.f-info>div{
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.f-form{
+    /* margin-top: 100px; */
+    margin-bottom: 50px;
+}
+
+.f-form>h4{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 29px;
+}
+
+.f-form>input{
+    color: rgb(243, 243, 243);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 12px 20px;
+    margin-top: 15px;
+}
+
+.f-form>button{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border-radius: 5px;
+    background: white;
+    color: rgb(241, 91, 34);
+    border: none;
+    padding: 12px 17px;
+    margin-top: 15px;
+    border: none;
+}
